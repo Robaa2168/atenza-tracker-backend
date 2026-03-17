@@ -1,5 +1,6 @@
 ﻿// File: backend/src/controllers/authController.js
 // Handles user registration, login, and fetching current user info.
+// Uses bcrypt for password hashing and JWT for token generation.
 const asyncHandler = require('express-async-handler');
 const bcrypt = require('bcryptjs');
 const User = require('../models/User');
