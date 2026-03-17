@@ -1,4 +1,5 @@
 ﻿// File: backend/src/controllers/authController.js
+// Handles user registration, login, and fetching current user info.
 const asyncHandler = require('express-async-handler');
 const bcrypt = require('bcryptjs');
 const User = require('../models/User');
